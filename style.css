@@ -1,0 +1,108 @@
+label {
+    height: 40px;
+}
+
+input {
+    width: 100%;
+}
+div#cal-inputs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+  justify-content: center;
+  width: 100%;
+  
+}
+
+div#cal-inputs > div > input {
+    border-radius: 5px;
+    border: solid 1px black;
+   text-align: center;
+  font-size: 1.5em;
+   font-weight: 500;
+   padding: 10px;
+  
+}
+
+
+
+#cal-inputs > Div {
+   width: 30%;
+   
+  padding:5px;
+  display:flex;
+   flex-direction: column;
+  gap:10px;
+    align-items: center;
+}
+
+input#nightly-rate{
+  width:150px!important;
+}
+
+label {
+    line-height: 1;
+    font-size: .7em;
+  font-weight: 700;
+  width:100%;
+  
+}
+div#cal-sub {
+    padding: 10px;
+}
+button {
+  width: 100%;
+    border-radius: 9999px;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1;
+    padding-top: 14px;
+    padding-right: 28px;
+    padding-bottom: 14px;
+    padding-left: 28px;
+  color: white;
+    background: black;
+    border-color: black;
+}
+
+.resdiv {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  justify-content: space-between;
+}
+
+p.heading-calc {
+    font-size: 1.2em;
+    font-weight: 800;
+  width: 100%;
+}
+p.rescalc {
+  width: 200px;
+  margin: 0px 
+}
+.resdiv > p {
+ margin: 0px;
+  
+}
+
+  
+div#cal-results {
+    background: #f9bec4;
+    padding: 10px;
+    border-radius: 10px;
+ 
+}
+.resdiv.res-highlight {
+    font-weight: 600;
+}
+
+.resdiv.res-total {
+    border-top: 1px solid;
+  font-weight: 700;
+}
+
+.cal-input .nightly-rate{
+  width: 100%; 
+}
