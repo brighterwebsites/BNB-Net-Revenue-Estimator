@@ -1,0 +1,70 @@
+<div id="calculator">
+	<div id="cal-inputs">
+     <div class="cal-input cal-night">
+  	  <label for="nightly-rate">Nightly Rate:</label>
+      <input type="number" id="nightly-rate" min="0" step="any" value="550" required>
+	</div>
+    <div class="cal-input">
+      <label for="number-of-nights">Number of Nights:</label>
+      <input type="number" id="number-of-nights" min="1" value="2" required>   
+    </div>
+
+    <div class="cal-input">
+      <label for="guests">Max Guests:</label>
+      <input type="number" id="guests" min="0" value="4" required>
+    </div>
+    <div class="cal-input">
+      <label for="beds">Number of Beds:</label>
+      <input type="number" id="beds" min="0" value="2" required>
+    </div>
+  
+    <div class="cal-input">
+      <label for="bedrooms">Number of Bedrooms:</label>
+      <input type="number" id="bedrooms" min="0" value="2" required>
+    </div>
+    
+    <div class="cal-input">
+      <label for="bathrooms">Number of Bathrooms or Ensuite:</label>
+      <input type="number" id="bathrooms" min="0" value="2" required>
+    </div>
+    <div class="cal-input">
+      <label for="living-areas">Number of Living Areas:</label>
+      <input type="number" id="living-areas" min="0" value="1" required>
+    </div>
+    <div class="cal-input">
+      <label for="kitchen">Number of Kitchen:</label>
+      <input type="number" id="kitchen" min="0" value="1" required>
+    </div>
+    </div>
+    
+	<div id="cal-sub">
+        <button onclick=" calculateIncomeRevenue()">Calculate</button>
+    </div>
+  
+  <div id="cal-results">
+    <p class="heading-calc">Results</p>
+        <div class="resdiv res-highlight">
+   			<p class="rescalc">Guest Fee: </p><p id="guest-fees">$0</p>
+        </div>      
+        <div class="resdiv">
+           <p class="rescalc"> Cleaning Fee:</p> <p id="cleaning-fee">$0</p>
+        </div> 
+        <div class="resdiv">
+           <p class="rescalc">Linen Fee: </p> <p id="linen-fee">$0</p>
+        </div> 
+        <div class="resdiv">            
+           <p class="rescalc">Management Fee: </p> <p id="management-fee">$0</p>
+        </div> 
+        <div class="resdiv">        
+           <p class="rescalc">Online Booking Site Commission: </p> <p id="commission">$0</p>
+        </div> 
+        <div class="resdiv res-total">         
+           <p class="rescalc h">Owner Receives </p> <p id="owner-receives">$0</p>
+        </div>  
+             
+        <p class="rescalc h">Owner Net % </p> <p id="owner-percentage">0%</p>
+    </div> 
+
+    <p>*Online Booking Site Commission may vary, Credit Card Processing Fees may apply, Stock items such as tea, coffee toilet paper etc have not been included in the above calculations.*</p>
+  </div>
+</div>
